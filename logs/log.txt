@@ -1,0 +1,104 @@
+2019-Jul-05 04:11:26 : Loaded dependencies, starting static GTFS Manager program.
+2019-Jul-05 04:11:26 : 
+
+Open http://localhost:5000 in your Web Browser if you don't see it opening automatically in 5 seconds.
+
+Note: If this is through docker, then it's not going to auto-open in browser, don't wait.
+2019-Jul-05 04:11:54 : 
+stats GET call
+2019-Jul-05 04:11:54 : readTableDB: Loaded agency, 0 records
+2019-Jul-05 04:11:54 : agency              : 0 entries
+2019-Jul-05 04:11:54 : calendar            : 0 entries
+2019-Jul-05 04:11:54 : stops               : 0 entries
+2019-Jul-05 04:11:54 : routes              : 0 entries
+2019-Jul-05 04:11:54 : trips               : 0 entries
+2019-Jul-05 04:11:54 : stop_times          : 0 entries
+2019-Jul-05 04:11:54 : calendar_dates      : 0 entries
+2019-Jul-05 04:11:54 : fare_attributes     : 0 entries
+2019-Jul-05 04:11:54 : fare_rules          : 0 entries
+2019-Jul-05 04:11:54 : shapes              : 0 entries
+2019-Jul-05 04:11:54 : frequencies         : 0 entries
+2019-Jul-05 04:11:54 : transfers           : 0 entries
+2019-Jul-05 04:11:54 : feed_info           : 0 entries
+2019-Jul-05 04:11:54 : stats GET call took 0.0 seconds.
+2019-Jul-05 04:11:55 : 
+pastCommits GET call
+2019-Jul-05 04:16:42 : 
+stats GET call
+2019-Jul-05 04:16:42 : readTableDB: Loaded agency, 0 records
+2019-Jul-05 04:16:42 : agency              : 0 entries
+2019-Jul-05 04:16:42 : calendar            : 0 entries
+2019-Jul-05 04:16:42 : stops               : 0 entries
+2019-Jul-05 04:16:42 : routes              : 0 entries
+2019-Jul-05 04:16:42 : trips               : 0 entries
+2019-Jul-05 04:16:42 : stop_times          : 0 entries
+2019-Jul-05 04:16:42 : calendar_dates      : 0 entries
+2019-Jul-05 04:16:42 : fare_attributes     : 0 entries
+2019-Jul-05 04:16:42 : fare_rules          : 0 entries
+2019-Jul-05 04:16:42 : shapes              : 0 entries
+2019-Jul-05 04:16:42 : frequencies         : 0 entries
+2019-Jul-05 04:16:42 : transfers           : 0 entries
+2019-Jul-05 04:16:42 : feed_info           : 0 entries
+2019-Jul-05 04:16:42 : stats GET call took 0.01 seconds.
+2019-Jul-05 04:16:43 : 
+pastCommits GET call
+2019-Jul-05 04:18:21 : 
+gtfsImportZip GET call
+2019-Jul-05 04:18:21 : Saving filename: gtfs.zip to uploads/
+2019-Jul-05 04:18:21 : 
+backupDB: Creating backup of DB in export/2019-07-05-backup-0418/.
+2019-Jul-05 04:18:21 : Generated GTFS feed at export/2019-07-05-backup-0418/
+2019-Jul-05 04:18:21 : Backup created.
+
+2019-Jul-05 04:18:21 : Extracting uploaded zip to uploads/unzip-041821/
+2019-Jul-05 04:18:21 : Extracted files: ['agency.txt', 'routes.txt', 'stops.txt']
+2019-Jul-05 04:18:21 : Note: We are importing a GTFS feed that does not contain all the required files as per GTFS spec: ['agency.txt', 'calendar.txt', 'stops.txt', 'routes.txt', 'trips.txt', 'stop_times.txt'] 				Kindly ensure the necessary files get created before exporting.
+2019-Jul-05 04:18:21 : Removed .h5 files from db/
+2019-Jul-05 04:18:21 : Removed .json files from db/
+2019-Jul-05 04:18:21 : db/sequence.json purged.
+2019-Jul-05 04:18:21 : Commencing conversion of gtfs feed files into the DB's .h5 files
+2019-Jul-05 04:18:21 : agency.h5: 1 rows
+2019-Jul-05 04:18:22 : routes.h5: 2 rows
+2019-Jul-05 04:18:22 : stops.h5: 18 rows
+2019-Jul-05 04:18:22 : Finished importing GTFS feed. You can remove the feed zip gtfs.zip and folder uploads/unzip-041821/ from uploads/ if you want.
+2019-Jul-05 04:18:22 : gtfsImportZip POST call took 0.51 seconds.
+2019-Jul-05 04:18:23 : 
+stats GET call
+2019-Jul-05 04:18:23 : readTableDB: Loaded agency, 1 records
+2019-Jul-05 04:18:23 : agency              : 1 entries
+2019-Jul-05 04:18:23 : calendar            : 0 entries
+2019-Jul-05 04:18:23 : stops               : 18 entries
+2019-Jul-05 04:18:23 : routes              : 2 entries
+2019-Jul-05 04:18:23 : trips               : 0 entries
+2019-Jul-05 04:18:23 : stop_times          : 0 entries
+2019-Jul-05 04:18:23 : calendar_dates      : 0 entries
+2019-Jul-05 04:18:23 : fare_attributes     : 0 entries
+2019-Jul-05 04:18:23 : fare_rules          : 0 entries
+2019-Jul-05 04:18:23 : shapes              : 0 entries
+2019-Jul-05 04:18:23 : frequencies         : 0 entries
+2019-Jul-05 04:18:23 : transfers           : 0 entries
+2019-Jul-05 04:18:23 : feed_info           : 0 entries
+2019-Jul-05 04:18:23 : stats GET call took 0.04 seconds.
+2019-Jul-05 04:18:24 : 
+pastCommits GET call
+2019-Jul-05 04:18:24 : pastCommits GET call took 0.0 seconds.
+2019-Jul-05 04:18:35 : 
+stats GET call
+2019-Jul-05 04:18:35 : readTableDB: Loaded agency, 1 records
+2019-Jul-05 04:18:35 : agency              : 1 entries
+2019-Jul-05 04:18:35 : calendar            : 0 entries
+2019-Jul-05 04:18:35 : stops               : 18 entries
+2019-Jul-05 04:18:35 : routes              : 2 entries
+2019-Jul-05 04:18:35 : trips               : 0 entries
+2019-Jul-05 04:18:35 : stop_times          : 0 entries
+2019-Jul-05 04:18:35 : calendar_dates      : 0 entries
+2019-Jul-05 04:18:35 : fare_attributes     : 0 entries
+2019-Jul-05 04:18:35 : fare_rules          : 0 entries
+2019-Jul-05 04:18:35 : shapes              : 0 entries
+2019-Jul-05 04:18:35 : frequencies         : 0 entries
+2019-Jul-05 04:18:35 : transfers           : 0 entries
+2019-Jul-05 04:18:35 : feed_info           : 0 entries
+2019-Jul-05 04:18:35 : stats GET call took 0.04 seconds.
+2019-Jul-05 04:18:36 : 
+pastCommits GET call
+2019-Jul-05 04:18:36 : pastCommits GET call took 0.0 seconds.

@@ -1,0 +1,3 @@
+agency_id,route_id,route_long_name,route_short_name
+A1,A1002,PumaKatari:PUC-IncaLlojeta,PK:Ruta1B
+A1,A1001,PumaKatari:IncaLlojeta-PUC,PK:Ruta1A
