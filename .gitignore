@@ -1,6 +1,4 @@
 *.zip
 *.exe
 *.gcov
-/lib
 /hydcsv_related
-/js
