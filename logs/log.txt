@@ -102,3 +102,627 @@ stats GET call
 2019-Jul-05 04:18:36 : 
 pastCommits GET call
 2019-Jul-05 04:18:36 : pastCommits GET call took 0.0 seconds.
+2019-Jul-06 22:34:01 : Loaded dependencies, starting static GTFS Manager program.
+2019-Jul-06 22:34:01 : 
+
+Open http://localhost:5000 in your Web Browser if you don't see it opening automatically in 5 seconds.
+
+Note: If this is through docker, then it's not going to auto-open in browser, don't wait.
+2019-Jul-06 22:35:01 : 
+stats GET call
+2019-Jul-06 22:35:02 : readTableDB: Loaded agency, 1 records
+2019-Jul-06 22:35:02 : agency              : 1 entries
+2019-Jul-06 22:35:02 : calendar            : 0 entries
+2019-Jul-06 22:35:02 : stops               : 18 entries
+2019-Jul-06 22:35:02 : routes              : 2 entries
+2019-Jul-06 22:35:02 : trips               : 0 entries
+2019-Jul-06 22:35:02 : stop_times          : 0 entries
+2019-Jul-06 22:35:02 : calendar_dates      : 0 entries
+2019-Jul-06 22:35:02 : fare_attributes     : 0 entries
+2019-Jul-06 22:35:02 : fare_rules          : 0 entries
+2019-Jul-06 22:35:02 : shapes              : 0 entries
+2019-Jul-06 22:35:02 : frequencies         : 0 entries
+2019-Jul-06 22:35:02 : transfers           : 0 entries
+2019-Jul-06 22:35:02 : feed_info           : 0 entries
+2019-Jul-06 22:35:02 : stats GET call took 0.35 seconds.
+2019-Jul-06 22:35:03 : 
+pastCommits GET call
+2019-Jul-06 22:35:03 : pastCommits GET call took 0.0 seconds.
+2019-Jul-06 22:35:22 : 
+tableReadSave GET call for table=routes
+2019-Jul-06 22:35:22 : readTableDB: Loaded routes, 2 records
+2019-Jul-06 22:35:23 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-06 22:35:23 : 
+tripIdList GET call
+2019-Jul-06 22:35:23 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 22:35:23 : tripIdList GET call took 0.04 seconds.
+2019-Jul-06 22:35:23 : 
+calendar GET call
+2019-Jul-06 22:35:23 : readTableDB: Loaded calendar, 0 records
+2019-Jul-06 22:35:23 : 20190706.0
+2019-Jul-06 22:35:23 : 
+allShapesList GET call
+2019-Jul-06 22:35:23 : allShapesList GET call took 0.12 seconds.
+2019-Jul-06 22:35:23 : 
+allStopsKeyed GET call
+2019-Jul-06 22:35:23 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 22:35:23 : allStopsKeyed GET call took 0.07 seconds.
+2019-Jul-06 23:03:54 : 
+listAll GET call
+2019-Jul-06 23:03:54 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:03:54 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded routes, 2 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded fare_attributes, 0 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded agency, 1 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded calendar, 0 records
+2019-Jul-06 23:03:55 : readTableDB: Loaded calendar_dates, 0 records
+2019-Jul-06 23:03:55 : listAll GET call took 0.28 seconds.
+2019-Jul-06 23:04:07 : 
+diagnoseID GET call
+2019-Jul-06 23:04:07 : readTableDB: table:routes, column:route_id, value:"A1002"
+2019-Jul-06 23:04:07 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:04:08 : diagnoseID GET call took 0.19 seconds.
+2019-Jul-06 23:04:40 : 
+deleteByKey GET call
+2019-Jul-06 23:04:40 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:04:40 : deleteID: Deleting 0 trips first under route_id="A1002"
+2019-Jul-06 23:04:40 : Deleted 1 rows with route_id="A1002" in table: routes<br>
+2019-Jul-06 23:04:40 : Removed entries if any for route_id: A1002 in sequenceDB.
+2019-Jul-06 23:04:40 : deleteByKey GET call took 0.42 seconds.
+2019-Jul-06 23:04:40 : 
+listAll GET call
+2019-Jul-06 23:04:40 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded fare_attributes, 0 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded agency, 1 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded calendar, 0 records
+2019-Jul-06 23:04:40 : readTableDB: Loaded calendar_dates, 0 records
+2019-Jul-06 23:04:40 : listAll GET call took 0.31 seconds.
+2019-Jul-06 23:04:43 : 
+diagnoseID GET call
+2019-Jul-06 23:04:43 : readTableDB: table:routes, column:route_id, value:"A1001"
+2019-Jul-06 23:04:43 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:04:43 : diagnoseID GET call took 0.12 seconds.
+2019-Jul-06 23:04:43 : 
+diagnoseID GET call
+2019-Jul-06 23:04:43 : readTableDB: table:routes, column:route_id, value:"A1001"
+2019-Jul-06 23:04:43 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:04:43 : diagnoseID GET call took 0.07 seconds.
+2019-Jul-06 23:04:48 : 
+deleteByKey GET call
+2019-Jul-06 23:04:49 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:04:49 : deleteID: Deleting 0 trips first under route_id="A1001"
+2019-Jul-06 23:04:49 : Deleted 1 rows with route_id="A1001" in table: routes<br>
+2019-Jul-06 23:04:49 : Removed entries if any for route_id: A1001 in sequenceDB.
+2019-Jul-06 23:04:49 : deleteByKey GET call took 0.36 seconds.
+2019-Jul-06 23:04:49 : 
+listAll GET call
+2019-Jul-06 23:04:49 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:04:49 : Note: routes.h5 does not have any data.
+2019-Jul-06 23:04:49 : readTableDB: Loaded routes, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded fare_rules, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded fare_attributes, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded agency, 1 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded calendar, 0 records
+2019-Jul-06 23:04:49 : readTableDB: Loaded calendar_dates, 0 records
+2019-Jul-06 23:04:49 : listAll GET call took 0.27 seconds.
+2019-Jul-06 23:04:52 : 
+tableReadSave GET call for table=routes
+2019-Jul-06 23:04:52 : Note: routes.h5 does not have any data.
+2019-Jul-06 23:04:52 : readTableDB: Loaded routes, 0 records
+2019-Jul-06 23:04:54 : tableReadSave GET call for table=routes took 0.01 seconds.
+2019-Jul-06 23:04:54 : 
+agency GET call
+2019-Jul-06 23:04:54 : readTableDB: Loaded agency, 1 records
+2019-Jul-06 23:04:54 : agency GET call took 0.04 seconds.
+2019-Jul-06 23:16:46 : 
+tableReadSave POST call for table=routes
+2019-Jul-06 23:16:46 : Replaced routes with new data, 1 entries inserted.
+2019-Jul-06 23:16:48 : tableReadSave POST call for table=routes took 0.26 seconds.
+2019-Jul-06 23:16:48 : 
+tableReadSave GET call for table=routes
+2019-Jul-06 23:16:48 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:16:51 : tableReadSave GET call for table=routes took 0.05 seconds.
+2019-Jul-06 23:17:06 : 
+allStopsKeyed GET call
+2019-Jul-06 23:17:06 : readTableDB: Loaded stops, 18 records
+2019-Jul-06 23:17:06 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-06 23:17:06 : 
+allShapesList GET call
+2019-Jul-06 23:17:06 : allShapesList GET call took 0.03 seconds.
+2019-Jul-06 23:17:06 : 
+tableReadSave GET call for table=routes
+2019-Jul-06 23:17:06 : readTableDB: Loaded routes, 1 records
+2019-Jul-06 23:17:08 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-06 23:18:10 : 
+sequence GET call
+2019-Jul-06 23:18:10 : sequence not found in sequence DB file, so extracting from gtfs tables instead.
+2019-Jul-06 23:18:10 : readTableDB: Loaded trips, 0 records
+2019-Jul-06 23:18:10 : extractSequencefromGTFS: no trips found for A1001. Skipping.
+2019-Jul-06 23:18:10 : sequence GET call took 0.01 seconds.
+2019-Jul-06 23:18:10 : 
+shapesList GET call
+2019-Jul-06 23:18:10 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:11:08 : 
+allStopsKeyed GET call
+2019-Jul-07 01:11:08 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 01:11:08 : allStopsKeyed GET call took 0.04 seconds.
+2019-Jul-07 01:11:08 : 
+allShapesList GET call
+2019-Jul-07 01:11:08 : allShapesList GET call took 0.02 seconds.
+2019-Jul-07 01:11:08 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 01:11:08 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 01:11:11 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 01:11:34 : 
+sequence GET call
+2019-Jul-07 01:11:34 : sequence not found in sequence DB file, so extracting from gtfs tables instead.
+2019-Jul-07 01:11:34 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:11:34 : extractSequencefromGTFS: no trips found for A1001. Skipping.
+2019-Jul-07 01:11:34 : sequence GET call took 0.01 seconds.
+2019-Jul-07 01:11:34 : 
+shapesList GET call
+2019-Jul-07 01:11:34 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:18:59 : 
+sequence POST call
+2019-Jul-07 01:19:00 : API/sequence POST call took 0.34 seconds.
+2019-Jul-07 01:19:00 : 
+allShapesList GET call
+2019-Jul-07 01:19:00 : allShapesList GET call took 0.07 seconds.
+2019-Jul-07 01:19:00 : 
+shapesList GET call
+2019-Jul-07 01:19:00 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:19:07 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 01:19:07 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 01:19:09 : tableReadSave GET call for table=routes took 0.03 seconds.
+2019-Jul-07 01:19:09 : 
+calendar GET call
+2019-Jul-07 01:19:09 : readTableDB: Loaded calendar, 0 records
+2019-Jul-07 01:19:09 : 20190707.0
+2019-Jul-07 01:19:09 : 
+tripIdList GET call
+2019-Jul-07 01:19:09 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:19:09 : tripIdList GET call took 0.07 seconds.
+2019-Jul-07 01:19:09 : 
+allShapesList GET call
+2019-Jul-07 01:19:09 : allShapesList GET call took 0.03 seconds.
+2019-Jul-07 01:19:09 : 
+allStopsKeyed GET call
+2019-Jul-07 01:19:09 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 01:19:09 : allStopsKeyed GET call took 0.06 seconds.
+2019-Jul-07 01:19:12 : 
+trips GET call
+2019-Jul-07 01:19:12 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:19:12 : Got the sequence from sequence db file.
+2019-Jul-07 01:19:12 : trips GET call took 0.0 seconds.
+2019-Jul-07 01:19:31 : 
+allStopsKeyed GET call
+2019-Jul-07 01:19:31 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 01:19:31 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 01:19:31 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 01:19:31 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 01:19:34 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 01:19:34 : 
+allShapesList GET call
+2019-Jul-07 01:19:34 : allShapesList GET call took 0.06 seconds.
+2019-Jul-07 01:19:36 : 
+sequence GET call
+2019-Jul-07 01:19:36 : Got the sequence from sequence db file.
+2019-Jul-07 01:19:36 : sequence GET call took 0.0 seconds.
+2019-Jul-07 01:19:36 : 
+shapesList GET call
+2019-Jul-07 01:19:36 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:20:01 : 
+sequence POST call
+2019-Jul-07 01:20:02 : API/sequence POST call took 0.33 seconds.
+2019-Jul-07 01:20:02 : 
+allShapesList GET call
+2019-Jul-07 01:20:02 : allShapesList GET call took 0.07 seconds.
+2019-Jul-07 01:20:02 : 
+shapesList GET call
+2019-Jul-07 01:20:02 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:20:13 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 01:20:13 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 01:20:16 : tableReadSave GET call for table=routes took 0.03 seconds.
+2019-Jul-07 01:20:16 : 
+tripIdList GET call
+2019-Jul-07 01:20:16 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:20:16 : tripIdList GET call took 0.06 seconds.
+2019-Jul-07 01:20:16 : 
+calendar GET call
+2019-Jul-07 01:20:16 : readTableDB: Loaded calendar, 0 records
+2019-Jul-07 01:20:16 : 20190707.0
+2019-Jul-07 01:20:16 : 
+allShapesList GET call
+2019-Jul-07 01:20:16 : allShapesList GET call took 0.03 seconds.
+2019-Jul-07 01:20:16 : 
+allStopsKeyed GET call
+2019-Jul-07 01:20:16 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 01:20:16 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 01:21:38 : 
+trips GET call
+2019-Jul-07 01:21:38 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 01:21:38 : Got the sequence from sequence db file.
+2019-Jul-07 01:21:38 : trips GET call took 0.0 seconds.
+2019-Jul-07 02:52:28 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 02:52:28 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 02:52:29 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 02:52:29 : 
+tripIdList GET call
+2019-Jul-07 02:52:29 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 02:52:29 : tripIdList GET call took 0.06 seconds.
+2019-Jul-07 02:52:29 : 
+allShapesList GET call
+2019-Jul-07 02:52:29 : allShapesList GET call took 0.05 seconds.
+2019-Jul-07 02:52:29 : 
+allStopsKeyed GET call
+2019-Jul-07 02:52:29 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 02:52:29 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 02:52:29 : 
+calendar GET call
+2019-Jul-07 02:52:29 : readTableDB: Loaded calendar, 0 records
+2019-Jul-07 02:52:29 : 20190707.0
+2019-Jul-07 02:52:33 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 02:52:33 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 02:52:34 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 02:52:34 : 
+agency GET call
+2019-Jul-07 02:52:34 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 02:52:34 : agency GET call took 0.07 seconds.
+2019-Jul-07 02:52:45 : 
+allStopsKeyed GET call
+2019-Jul-07 02:52:45 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 02:52:45 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 02:52:45 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 02:52:45 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 02:52:46 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 02:52:46 : 
+allShapesList GET call
+2019-Jul-07 02:52:46 : allShapesList GET call took 0.06 seconds.
+2019-Jul-07 02:52:49 : 
+sequence GET call
+2019-Jul-07 02:52:49 : Got the sequence from sequence db file.
+2019-Jul-07 02:52:49 : sequence GET call took 0.01 seconds.
+2019-Jul-07 02:52:49 : 
+shapesList GET call
+2019-Jul-07 02:52:49 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 02:53:02 : 
+sequence POST call
+2019-Jul-07 02:53:02 : API/sequence POST call took 0.24 seconds.
+2019-Jul-07 02:53:02 : 
+allShapesList GET call
+2019-Jul-07 02:53:02 : allShapesList GET call took 0.03 seconds.
+2019-Jul-07 02:53:02 : 
+shapesList GET call
+2019-Jul-07 02:53:02 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 02:53:07 : 
+calendar GET call
+2019-Jul-07 02:53:07 : readTableDB: Loaded calendar, 0 records
+2019-Jul-07 02:53:07 : 20190707.0
+2019-Jul-07 02:53:07 : 
+allStopsKeyed GET call
+2019-Jul-07 02:53:07 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 02:53:07 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 02:53:07 : 
+allShapesList GET call
+2019-Jul-07 02:53:07 : allShapesList GET call took 0.02 seconds.
+2019-Jul-07 02:53:07 : 
+tripIdList GET call
+2019-Jul-07 02:53:07 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 02:53:07 : tripIdList GET call took 0.02 seconds.
+2019-Jul-07 02:53:07 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 02:53:07 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 02:53:08 : tableReadSave GET call for table=routes took 0.02 seconds.
+2019-Jul-07 02:53:10 : 
+trips GET call
+2019-Jul-07 02:53:10 : readTableDB: Loaded trips, 0 records
+2019-Jul-07 02:53:10 : Got the sequence from sequence db file.
+2019-Jul-07 02:53:10 : trips GET call took 0.0 seconds.
+2019-Jul-07 02:55:20 : 
+tableReadSave POST call for table=trips
+2019-Jul-07 02:55:20 : DB file for trips not found so created with the new data.
+2019-Jul-07 02:55:21 : tableReadSave POST call for table=trips took 0.26 seconds.
+2019-Jul-07 02:58:37 : 
+tableReadSave POST call for table=trips
+2019-Jul-07 02:58:37 : Replaced 2 entries for route_id=A1001 with 2 new entries in trips.
+2019-Jul-07 02:58:38 : tableReadSave POST call for table=trips took 0.25 seconds.
+2019-Jul-07 02:59:26 : 
+stopTimes GET call
+2019-Jul-07 02:59:26 : readTableDB: table:trips, column:trip_id, value:"A1001001"
+2019-Jul-07 02:59:26 : readTableDB: Loaded trips, 1 records
+2019-Jul-07 02:59:26 : db/stop_times_lookup.json not found so creating it as empty json.
+2019-Jul-07 02:59:26 : readTableDB: No stop_times chunk found for key=A1001001
+2019-Jul-07 02:59:26 : readTableDB: Loaded stop_times, 0 records
+2019-Jul-07 02:59:26 : returnJson.message: This trip is new. Loading default sequence, please fill in timings and save to DB.
+2019-Jul-07 02:59:26 : stopTimes GET call took 0.02 seconds.
+2019-Jul-07 03:01:38 : 
+tableReadSave POST call for table=stop_times
+2019-Jul-07 03:01:38 : Note: stop_times_1.h5 does not exist yet, so we will likely create it.
+2019-Jul-07 03:01:38 : 18 new entries for id A1001001 added. Now writing to stop_times_1.h5.
+2019-Jul-07 03:01:38 : Making new.csv and test.csv in uploads/ for cross-checking.
+2019-Jul-07 03:01:39 : tableReadSave POST call for table=stop_times took 0.28 seconds.
+2019-Jul-07 03:02:09 : 
+stopTimes GET call
+2019-Jul-07 03:02:09 : readTableDB: table:trips, column:trip_id, value:"A1001002"
+2019-Jul-07 03:02:09 : readTableDB: Loaded trips, 1 records
+2019-Jul-07 03:02:09 : readTableDB: No stop_times chunk found for key=A1001002
+2019-Jul-07 03:02:09 : readTableDB: Loaded stop_times, 0 records
+2019-Jul-07 03:02:09 : returnJson.message: This trip is new. Loading default sequence, please fill in timings and save to DB.
+2019-Jul-07 03:02:09 : stopTimes GET call took 0.05 seconds.
+2019-Jul-07 03:04:44 : 
+tableReadSave POST call for table=stop_times
+2019-Jul-07 03:04:44 : 18 new entries for id A1001002 added. Now writing to stop_times_1.h5.
+2019-Jul-07 03:04:44 : Making new.csv and test.csv in uploads/ for cross-checking.
+2019-Jul-07 03:04:46 : tableReadSave POST call for table=stop_times took 0.29 seconds.
+2019-Jul-07 03:05:37 : 
+pastCommits GET call
+2019-Jul-07 03:05:37 : pastCommits GET call took 0.0 seconds.
+2019-Jul-07 03:05:37 : 
+stats GET call
+2019-Jul-07 03:05:37 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 03:05:37 : agency              : 1 entries
+2019-Jul-07 03:05:37 : calendar            : 0 entries
+2019-Jul-07 03:05:37 : stops               : 18 entries
+2019-Jul-07 03:05:37 : routes              : 1 entries
+2019-Jul-07 03:05:37 : trips               : 2 entries
+2019-Jul-07 03:05:37 : stop_times          : 36 entries
+2019-Jul-07 03:05:37 : calendar_dates      : 0 entries
+2019-Jul-07 03:05:37 : fare_attributes     : 0 entries
+2019-Jul-07 03:05:37 : fare_rules          : 0 entries
+2019-Jul-07 03:05:37 : shapes              : 0 entries
+2019-Jul-07 03:05:37 : frequencies         : 0 entries
+2019-Jul-07 03:05:37 : transfers           : 0 entries
+2019-Jul-07 03:05:37 : feed_info           : 0 entries
+2019-Jul-07 03:05:37 : stats GET call took 0.08 seconds.
+2019-Jul-07 03:06:31 : 
+tableReadSave GET call for table=calendar
+2019-Jul-07 03:06:31 : readTableDB: Loaded calendar, 0 records
+2019-Jul-07 03:06:32 : tableReadSave GET call for table=calendar took 0.0 seconds.
+2019-Jul-07 03:06:32 : 
+tableReadSave GET call for table=calendar_dates
+2019-Jul-07 03:06:32 : readTableDB: Loaded calendar_dates, 0 records
+2019-Jul-07 03:06:33 : tableReadSave GET call for table=calendar_dates took 0.01 seconds.
+2019-Jul-07 03:07:35 : 
+tableReadSave POST call for table=calendar
+2019-Jul-07 03:07:36 : DB file for calendar not found so created with the new data.
+2019-Jul-07 03:07:37 : tableReadSave POST call for table=calendar took 0.25 seconds.
+2019-Jul-07 03:08:04 : 
+tripIdList GET call
+2019-Jul-07 03:08:04 : readTableDB: Loaded trips, 2 records
+2019-Jul-07 03:08:04 : tripIdList GET call took 0.04 seconds.
+2019-Jul-07 03:08:04 : 
+allShapesList GET call
+2019-Jul-07 03:08:04 : allShapesList GET call took 0.02 seconds.
+2019-Jul-07 03:08:04 : 
+allStopsKeyed GET call
+2019-Jul-07 03:08:04 : readTableDB: Loaded stops, 18 records
+2019-Jul-07 03:08:04 : allStopsKeyed GET call took 0.02 seconds.
+2019-Jul-07 03:08:04 : 
+calendar GET call
+2019-Jul-07 03:08:04 : readTableDB: Loaded calendar, 1 records
+2019-Jul-07 03:08:04 : 20190707.0
+2019-Jul-07 03:08:04 : calendar GET call took 0.01 seconds.
+2019-Jul-07 03:08:04 : 
+tableReadSave GET call for table=routes
+2019-Jul-07 03:08:04 : readTableDB: Loaded routes, 1 records
+2019-Jul-07 03:08:05 : tableReadSave GET call for table=routes took 0.01 seconds.
+2019-Jul-07 03:08:11 : 
+trips GET call
+2019-Jul-07 03:08:11 : readTableDB: table:trips, column:route_id, value:"A1001"
+2019-Jul-07 03:08:11 : readTableDB: Loaded trips, 2 records
+2019-Jul-07 03:08:11 : Got the sequence from sequence db file.
+2019-Jul-07 03:08:11 : trips GET call took 0.02 seconds.
+2019-Jul-07 03:08:20 : 
+tableReadSave POST call for table=trips
+2019-Jul-07 03:08:20 : Replaced 2 entries for route_id=A1001 with 2 new entries in trips.
+2019-Jul-07 03:08:21 : tableReadSave POST call for table=trips took 0.25 seconds.
+2019-Jul-07 03:08:24 : 
+stats GET call
+2019-Jul-07 03:08:24 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 03:08:24 : agency              : 1 entries
+2019-Jul-07 03:08:24 : calendar            : 1 entries
+2019-Jul-07 03:08:24 : stops               : 18 entries
+2019-Jul-07 03:08:24 : routes              : 1 entries
+2019-Jul-07 03:08:24 : trips               : 2 entries
+2019-Jul-07 03:08:24 : stop_times          : 36 entries
+2019-Jul-07 03:08:24 : calendar_dates      : 0 entries
+2019-Jul-07 03:08:24 : fare_attributes     : 0 entries
+2019-Jul-07 03:08:24 : fare_rules          : 0 entries
+2019-Jul-07 03:08:24 : shapes              : 0 entries
+2019-Jul-07 03:08:24 : frequencies         : 0 entries
+2019-Jul-07 03:08:24 : transfers           : 0 entries
+2019-Jul-07 03:08:24 : feed_info           : 0 entries
+2019-Jul-07 03:08:24 : stats GET call took 0.07 seconds.
+2019-Jul-07 03:08:25 : 
+pastCommits GET call
+2019-Jul-07 03:08:25 : pastCommits GET call took 0.0 seconds.
+2019-Jul-07 03:08:47 : 
+commitExport GET call
+2019-Jul-07 03:08:47 : Writing routes to disk and zipping...
+2019-Jul-07 03:08:47 : Added routes in 0.077 seconds.
+2019-Jul-07 03:08:47 : Writing calendar to disk and zipping...
+2019-Jul-07 03:08:47 : Added calendar in 0.023 seconds.
+2019-Jul-07 03:08:47 : Writing stops to disk and zipping...
+2019-Jul-07 03:08:47 : Added stops in 0.016 seconds.
+2019-Jul-07 03:08:47 : Writing trips to disk and zipping...
+2019-Jul-07 03:08:47 : Added trips in 0.014 seconds.
+2019-Jul-07 03:08:47 : Writing agency to disk and zipping...
+2019-Jul-07 03:08:47 : Added agency in 0.014 seconds.
+2019-Jul-07 03:08:47 : Columns for stop_times: ['trip_id', 'stop_sequence', 'timepoint', 'departure_time', 'stop_id', 'arrival_time']
+2019-Jul-07 03:08:47 : Writing stop_times_1.h5 to csv
+2019-Jul-07 03:08:47 : CSV stop_times.txt created in 0.066 seconds, now zipping
+2019-Jul-07 03:08:47 : Added stop_times to zip in 0.001 seconds.
+2019-Jul-07 03:08:47 : Added stop_times in 0.067 seconds.
+2019-Jul-07 03:08:47 : Generated GTFS feed at export/2019-07-07-pumakatariroute1/
+2019-Jul-07 03:08:47 : commitExport GET call took 0.25 seconds.
+2019-Jul-07 04:05:47 : 
+tableReadSave GET call for table=agency
+2019-Jul-07 04:05:47 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:06:27 : tableReadSave GET call for table=agency took 0.02 seconds.
+2019-Jul-07 04:06:27 : 
+tableReadSave GET call for table=agency
+2019-Jul-07 04:06:27 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:07:07 : tableReadSave GET call for table=agency took 0.05 seconds.
+2019-Jul-07 04:07:07 : 
+tableReadSave GET call for table=feed_info
+2019-Jul-07 04:07:07 : readTableDB: Loaded feed_info, 0 records
+2019-Jul-07 04:07:47 : tableReadSave GET call for table=feed_info took 0.01 seconds.
+2019-Jul-07 04:07:47 : 
+stats GET call
+2019-Jul-07 04:07:47 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:07:47 : agency              : 1 entries
+2019-Jul-07 04:07:47 : calendar            : 1 entries
+2019-Jul-07 04:07:47 : stops               : 18 entries
+2019-Jul-07 04:07:47 : routes              : 1 entries
+2019-Jul-07 04:07:47 : trips               : 2 entries
+2019-Jul-07 04:07:47 : stop_times          : 36 entries
+2019-Jul-07 04:07:47 : calendar_dates      : 0 entries
+2019-Jul-07 04:07:47 : fare_attributes     : 0 entries
+2019-Jul-07 04:07:47 : fare_rules          : 0 entries
+2019-Jul-07 04:07:47 : shapes              : 0 entries
+2019-Jul-07 04:07:47 : frequencies         : 0 entries
+2019-Jul-07 04:07:47 : transfers           : 0 entries
+2019-Jul-07 04:07:47 : feed_info           : 0 entries
+2019-Jul-07 04:07:47 : stats GET call took 0.08 seconds.
+2019-Jul-07 04:08:22 : Loaded dependencies, starting static GTFS Manager program.
+2019-Jul-07 04:08:22 : 
+
+Open http://localhost:5000 in your Web Browser if you don't see it opening automatically in 5 seconds.
+
+Note: If this is through docker, then it's not going to auto-open in browser, don't wait.
+2019-Jul-07 04:09:02 : 
+stats GET call
+2019-Jul-07 04:09:03 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:09:03 : agency              : 1 entries
+2019-Jul-07 04:09:03 : calendar            : 1 entries
+2019-Jul-07 04:09:03 : stops               : 18 entries
+2019-Jul-07 04:09:03 : routes              : 1 entries
+2019-Jul-07 04:09:03 : trips               : 2 entries
+2019-Jul-07 04:09:03 : stop_times          : 36 entries
+2019-Jul-07 04:09:03 : calendar_dates      : 0 entries
+2019-Jul-07 04:09:03 : fare_attributes     : 0 entries
+2019-Jul-07 04:09:03 : fare_rules          : 0 entries
+2019-Jul-07 04:09:03 : shapes              : 0 entries
+2019-Jul-07 04:09:03 : frequencies         : 0 entries
+2019-Jul-07 04:09:03 : transfers           : 0 entries
+2019-Jul-07 04:09:03 : feed_info           : 0 entries
+2019-Jul-07 04:09:03 : stats GET call took 0.46 seconds.
+2019-Jul-07 04:09:43 : 
+pastCommits GET call
+2019-Jul-07 04:09:43 : pastCommits GET call took 0.0 seconds.
+2019-Jul-07 04:10:23 : 
+stats GET call
+2019-Jul-07 04:10:23 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:10:23 : agency              : 1 entries
+2019-Jul-07 04:10:23 : calendar            : 1 entries
+2019-Jul-07 04:10:23 : stops               : 18 entries
+2019-Jul-07 04:10:23 : routes              : 1 entries
+2019-Jul-07 04:10:23 : trips               : 2 entries
+2019-Jul-07 04:10:23 : stop_times          : 36 entries
+2019-Jul-07 04:10:23 : calendar_dates      : 0 entries
+2019-Jul-07 04:10:23 : fare_attributes     : 0 entries
+2019-Jul-07 04:10:23 : fare_rules          : 0 entries
+2019-Jul-07 04:10:23 : shapes              : 0 entries
+2019-Jul-07 04:10:23 : frequencies         : 0 entries
+2019-Jul-07 04:10:23 : transfers           : 0 entries
+2019-Jul-07 04:10:23 : feed_info           : 0 entries
+2019-Jul-07 04:10:23 : stats GET call took 0.07 seconds.
+2019-Jul-07 04:11:03 : 
+pastCommits GET call
+2019-Jul-07 04:11:04 : pastCommits GET call took 0.01 seconds.
+2019-Jul-07 04:11:11 : 
+tableReadSave GET call for table=agency
+2019-Jul-07 04:11:11 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:11:51 : tableReadSave GET call for table=agency took 0.02 seconds.
+2019-Jul-07 04:11:51 : 
+tableReadSave GET call for table=feed_info
+2019-Jul-07 04:11:51 : readTableDB: Loaded feed_info, 0 records
+2019-Jul-07 04:12:27 : tableReadSave GET call for table=feed_info took 0.01 seconds.
+2019-Jul-07 04:13:34 : 
+tableReadSave POST call for table=agency
+2019-Jul-07 04:13:34 : Replaced agency with new data, 1 entries inserted.
+2019-Jul-07 04:13:35 : tableReadSave POST call for table=agency took 0.22 seconds.
+2019-Jul-07 04:14:14 : 
+pastCommits GET call
+2019-Jul-07 04:14:14 : pastCommits GET call took 0.0 seconds.
+2019-Jul-07 04:14:14 : 
+stats GET call
+2019-Jul-07 04:14:14 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:14:14 : agency              : 1 entries
+2019-Jul-07 04:14:14 : calendar            : 1 entries
+2019-Jul-07 04:14:14 : stops               : 18 entries
+2019-Jul-07 04:14:14 : routes              : 1 entries
+2019-Jul-07 04:14:14 : trips               : 2 entries
+2019-Jul-07 04:14:14 : stop_times          : 36 entries
+2019-Jul-07 04:14:14 : calendar_dates      : 0 entries
+2019-Jul-07 04:14:14 : fare_attributes     : 0 entries
+2019-Jul-07 04:14:14 : fare_rules          : 0 entries
+2019-Jul-07 04:14:14 : shapes              : 0 entries
+2019-Jul-07 04:14:14 : frequencies         : 0 entries
+2019-Jul-07 04:14:14 : transfers           : 0 entries
+2019-Jul-07 04:14:14 : feed_info           : 0 entries
+2019-Jul-07 04:14:14 : stats GET call took 0.06 seconds.
+2019-Jul-07 04:14:20 : 
+tableReadSave GET call for table=agency
+2019-Jul-07 04:14:20 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:14:22 : tableReadSave GET call for table=agency took 0.02 seconds.
+2019-Jul-07 04:14:22 : 
+tableReadSave GET call for table=feed_info
+2019-Jul-07 04:14:22 : readTableDB: Loaded feed_info, 0 records
+2019-Jul-07 04:14:23 : tableReadSave GET call for table=feed_info took 0.01 seconds.
+2019-Jul-07 04:14:29 : 
+stats GET call
+2019-Jul-07 04:14:29 : readTableDB: Loaded agency, 1 records
+2019-Jul-07 04:14:29 : agency              : 1 entries
+2019-Jul-07 04:14:29 : calendar            : 1 entries
+2019-Jul-07 04:14:29 : stops               : 18 entries
+2019-Jul-07 04:14:29 : routes              : 1 entries
+2019-Jul-07 04:14:29 : trips               : 2 entries
+2019-Jul-07 04:14:29 : stop_times          : 36 entries
+2019-Jul-07 04:14:29 : calendar_dates      : 0 entries
+2019-Jul-07 04:14:29 : fare_attributes     : 0 entries
+2019-Jul-07 04:14:29 : fare_rules          : 0 entries
+2019-Jul-07 04:14:29 : shapes              : 0 entries
+2019-Jul-07 04:14:29 : frequencies         : 0 entries
+2019-Jul-07 04:14:29 : transfers           : 0 entries
+2019-Jul-07 04:14:29 : feed_info           : 0 entries
+2019-Jul-07 04:14:29 : stats GET call took 0.06 seconds.
+2019-Jul-07 04:14:30 : 
+pastCommits GET call
+2019-Jul-07 04:14:30 : pastCommits GET call took 0.0 seconds.
+2019-Jul-07 04:15:43 : 
+commitExport GET call
+2019-Jul-07 04:15:43 : Writing routes to disk and zipping...
+2019-Jul-07 04:15:43 : Added routes in 0.061 seconds.
+2019-Jul-07 04:15:43 : Writing calendar to disk and zipping...
+2019-Jul-07 04:15:43 : Added calendar in 0.02 seconds.
+2019-Jul-07 04:15:43 : Writing stops to disk and zipping...
+2019-Jul-07 04:15:43 : Added stops in 0.016 seconds.
+2019-Jul-07 04:15:43 : Writing trips to disk and zipping...
+2019-Jul-07 04:15:43 : Added trips in 0.013 seconds.
+2019-Jul-07 04:15:43 : Writing agency to disk and zipping...
+2019-Jul-07 04:15:43 : Added agency in 0.013 seconds.
+2019-Jul-07 04:15:43 : Columns for stop_times: ['trip_id', 'timepoint', 'stop_sequence', 'arrival_time', 'departure_time', 'stop_id']
+2019-Jul-07 04:15:43 : Writing stop_times_1.h5 to csv
+2019-Jul-07 04:15:43 : CSV stop_times.txt created in 0.069 seconds, now zipping
+2019-Jul-07 04:15:43 : Added stop_times to zip in 0.001 seconds.
+2019-Jul-07 04:15:43 : Added stop_times in 0.069 seconds.
+2019-Jul-07 04:15:43 : Generated GTFS feed at export/2019-07-07-pkr1agencyurl/
+2019-Jul-07 04:15:43 : commitExport GET call took 0.23 seconds.

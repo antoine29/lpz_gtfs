@@ -1,0 +1,19 @@
+stop_id,stop_lat,stop_lon,stop_name,wheelchair_boarding,zone_id
+PK_S18,-16.5008,-68.1303,PumaKatari:Sim,,PK_S18
+PK_S17,-16.5002,-68.132,PumaKatari:Pza.Camacho,,PK_S17
+PK_S16,-16.5039,-68.1285,PumaKatari:UMSA,,PK_S16
+PK_S15,-16.5143,-68.1145,PumaKatari:IVCentenario,,PK_S15
+PK_S14,-16.5169,-68.1214,PumaKatari:PuentesTrillizos,0,PK_S14
+PK_S13,-16.52,-68.1254,PumaKatari:Emaverde,0,PK_S13
+PK_S12,-16.5232,-68.1218,PumaKatari:CementerioJardin,0,PK_S12
+PK_S11,-16.5258,-68.1237,PumaKatari:U.E.Bol.Japon,0,PK_S11
+PK_S10,-16.5266,-68.1263,PumaKatari:Hosp.NuestraSenoraDeLPZ,,PK_S10
+PK_S9,-16.5312,-68.1262,PumaKatari:LasAcacias,,PK_S9
+PK_S8,-16.5298,-68.1286,PumaKatari:LasPetunias,,PK_S8
+PK_S7,-16.5331,-68.1314,PumaKatari:Tomillo,,PK_S7
+PK_S6,-16.534,-68.1348,PumaKatari:Vergelito,,PK_S6
+PK_S5,-16.5334,-68.1378,PumaKatari:CentroDeSaludVergel,0,PK_S5
+PK_S4,-16.5332,-68.1405,PumaKatari:FinalBuenosAires,0,PK_S4
+PK_S3,-16.5326,-68.1425,PumaKatari:U.E.Jose,,PK_S3
+PK_S2,-16.5341,-68.146,PumaKatari: Raul Salmon,0,PK_S2
+PK_S1,-16.5292,-68.1433,PumaKatari: Tupak Katari,0,PK_S1

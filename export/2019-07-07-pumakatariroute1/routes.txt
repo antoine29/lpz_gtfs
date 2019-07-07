@@ -1,0 +1,2 @@
+agency_id,route_color,route_id,route_long_name,route_short_name,route_text_color,route_type
+A1,880880,A1001,PumaKatari:IncaLlojeta/PUC,PKR1,FFFFFF,3
